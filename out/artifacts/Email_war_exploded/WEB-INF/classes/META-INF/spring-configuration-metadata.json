@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "email",
+      "type": "hundsun.email.Entity.Email",
+      "sourceType": "hundsun.email.Entity.Email"
+    }
+  ],
+  "properties": [
+    {
+      "name": "email.from-address",
+      "type": "java.lang.String",
+      "description": "发送邮箱地址",
+      "sourceType": "hundsun.email.Entity.Email"
+    },
+    {
+      "name": "email.msg",
+      "type": "java.util.HashMap<java.lang.String,java.lang.String>",
+      "description": "数据脱敏：被transient修饰的字段不会被序列化",
+      "sourceType": "hundsun.email.Entity.Email"
+    },
+    {
+      "name": "email.password",
+      "type": "java.lang.String",
+      "description": "授权码",
+      "sourceType": "hundsun.email.Entity.Email"
+    },
+    {
+      "name": "email.template-file-address",
+      "type": "java.lang.String",
+      "description": "邮件模板地址",
+      "sourceType": "hundsun.email.Entity.Email"
+    },
+    {
+      "name": "email.to-address",
+      "type": "java.lang.String",
+      "description": "收件邮箱地址",
+      "sourceType": "hundsun.email.Entity.Email"
+    }
+  ],
+  "hints": []
+}

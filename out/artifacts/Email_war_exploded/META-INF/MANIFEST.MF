@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Joker
+Build-Jdk: BellSoft Liberica version 1.8.0_333
+Implementation-Title: Email
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: Hundsun
+Main-Class: ${start-class}
+
